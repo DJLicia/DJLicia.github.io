@@ -1,0 +1,22 @@
+/*
+    Name: Alicia Zhang
+    CS 132 Spring 2024
+    Date: April 13, 2024
+    This is the custom-art-page-styles.css page for my Art portfolio 
+    These are the unique styles for the art.html figures and sections
+*/
+
+figure img{
+    padding: 10px;
+    height: auto;
+    width: 70%;
+}
+
+figcaption {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#art-greeting {
+    background-color: #fdffd1;
+    padding: 20px;
+}

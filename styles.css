@@ -1,0 +1,123 @@
+/*
+    Name: Alicia Zhang
+    CS 132 Spring 2024
+    Date: April 13, 2024
+    This is the styles.css page for my Art portfolio 
+    Used by all pages in my portfolio to give a consistent
+    look and feel
+*/
+/*---------- General Page Styles ----------- */
+body {
+    background-color: rgb(206, 225, 246);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4D5057;
+    left: 0;
+}
+nav ul {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav li {
+    display: inline;
+    width: 100px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #4D5057;
+    text-decoration: none;
+}
+
+li a {
+    color: #cee1f6;
+}
+
+main {
+    display: flex;
+    flex-grow: 2;
+    margin-top: 15px;
+}
+
+main aside {
+    padding: 10px;
+    min-width: 200px;
+}
+
+main img {
+    display: block;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 70%;
+    height: auto;
+}
+main h1 {
+    text-align: center;
+}
+
+.oswald-quotie {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+q {
+    font-size: 30px;
+}
+
+#about-alicia {
+    background-color: #A0DBC0;
+    padding: 20px;
+}
+#currently {
+    background-color: #E6F9AF;
+    padding: 20px;
+    min-width: 300px;
+}
+
+#salmon-back {
+    padding: 10px;
+    background-color: #ff9999;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace
+}
+h1 {
+    font-size: 35px;
+    text-decoration: overline underline;
+    text-shadow: -1px 2px #328560;
+}
+p, ol, ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style-type: circle;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    position: fixed;
+    background-color: #4D5057;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#fdffd1;
+    text-align: center;
+}
+
+/* main > section {
+    border: 10px solid slateblue
+} */
